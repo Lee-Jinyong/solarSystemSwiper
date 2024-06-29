@@ -67,3 +67,6 @@ new Swiper(".solar-system-swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+let container = document.querySelector('.solar-system-swiper');
+container.scrollTop = container.scrollHeight;
