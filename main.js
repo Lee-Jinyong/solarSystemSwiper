@@ -68,5 +68,5 @@ new Swiper(".solar-system-swiper", {
   },
 });
 
-let container = document.querySelector('.solar-system-swiper');
-container.scrollTop = container.scrollHeight;
+let body = document.querySelector('body');
+body.scrollTop = body.scrollHeight;
