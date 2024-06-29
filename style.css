@@ -9,7 +9,7 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
-  min-width: 500px;
+  min-width: 400px;
   min-height: 650px;
   background: #000;
   font-family: 'DOSGothic', serif;
@@ -87,7 +87,6 @@ body {
 .bullet {
   width: 100px;
   padding: 0.2rem;
-  margin: 0.3rem;
   cursor: pointer;
   opacity: 0.5;
   transition: all 0.3s;
